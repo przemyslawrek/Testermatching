@@ -1,0 +1,38 @@
+GET http://localhost:8081/testers/country/US
+
+
+
+#######
+
+GET http://localhost:8081/testers/countries/US/device_ids/1
+
+
+#######
+
+GET http://localhost:8081/testers/countryList/
+
+
+#######
+
+GET http://localhost:8081/device/
+
+
+#####
+POST http://localhost:8081/testers/experience
+Content-Type: application/json
+
+{
+  "countries": [
+    "GB"
+  ],
+  "deviceIds":[3,4,5,6]
+}
+#####
+POST http://localhost:8081/testers/experience
+Content-Type: application/json
+
+{
+  "countries": [
+    "US"
+  ]
+}
