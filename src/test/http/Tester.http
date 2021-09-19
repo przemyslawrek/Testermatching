@@ -14,7 +14,7 @@ GET http://localhost:8081/testers/countryList/
 
 #######
 
-GET http://localhost:8081/device/
+GET http://localhost:8081/testers/experience?countries=GB,US&deviceIds=1,2
 
 
 #####

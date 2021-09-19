@@ -1,12 +1,10 @@
-package pl.rek.tester_matching.bug;
+package pl.rek.tester_matching.db.bug;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pl.rek.tester_matching.device.Device;
-import pl.rek.tester_matching.tester.Tester;
+import pl.rek.tester_matching.db.device.Device;
+import pl.rek.tester_matching.db.tester.Tester;
 
 import javax.persistence.*;
 
