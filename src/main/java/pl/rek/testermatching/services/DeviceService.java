@@ -1,9 +1,9 @@
-package pl.rek.tester_matching.services;
+package pl.rek.testermatching.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.rek.tester_matching.db.device.Device;
-import pl.rek.tester_matching.db.device.DeviceRepository;
+import pl.rek.testermatching.db.device.Device;
+import pl.rek.testermatching.db.device.DeviceRepository;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package pl.rek.tester_matching.services;
+package pl.rek.testermatching.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.rek.tester_matching.db.tester.TesterExperience;
-import pl.rek.tester_matching.db.tester.Tester;
-import pl.rek.tester_matching.db.tester.TesterRepository;
+import pl.rek.testermatching.db.tester.TesterExperience;
+import pl.rek.testermatching.db.tester.Tester;
+import pl.rek.testermatching.db.tester.TesterRepository;
 
 import java.util.List;
 

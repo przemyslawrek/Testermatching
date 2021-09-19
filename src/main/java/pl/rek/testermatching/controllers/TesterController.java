@@ -1,24 +1,20 @@
-package pl.rek.tester_matching.controllers;
+package pl.rek.testermatching.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import pl.rek.tester_matching.model.TesterExperienceSearchCriteria;
-import pl.rek.tester_matching.services.TesterService;
-import pl.rek.tester_matching.db.tester.TesterExperience;
-import pl.rek.tester_matching.db.tester.Tester;
+import pl.rek.testermatching.model.TesterExperienceSearchCriteria;
+import pl.rek.testermatching.services.TesterService;
+import pl.rek.testermatching.db.tester.TesterExperience;
+import pl.rek.testermatching.db.tester.Tester;
 
 import java.util.List;
 
 @RestController
 @RequestMapping(path = "testers")
+@RequiredArgsConstructor
 public class TesterController {
 
     private final TesterService testerService;
-
-    @Autowired
-    public TesterController(TesterService testerService) {
-        this.testerService = testerService;
-    }
 
     @GetMapping(path = "country/{country}")
     public List<Tester> getTesterByCountry(@PathVariable("country") String country) {

@@ -1,4 +1,4 @@
-package pl.rek.tester_matching.db.tester;
+package pl.rek.testermatching.db.tester;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
